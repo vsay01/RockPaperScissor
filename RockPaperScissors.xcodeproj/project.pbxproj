@@ -11,6 +11,8 @@
 		5B0682FC2967851100889626 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0682FB2967851100889626 /* ContentView.swift */; };
 		5B0682FE2967851500889626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B0682FD2967851500889626 /* Assets.xcassets */; };
 		5B0683012967851500889626 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B0683002967851500889626 /* Preview Assets.xcassets */; };
+		5B06830929685C7400889626 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B06830829685C7400889626 /* Model.swift */; };
+		5B06830B2968AF8400889626 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B06830A2968AF8400889626 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		5B0682FB2967851100889626 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5B0682FD2967851500889626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B0683002967851500889626 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5B06830829685C7400889626 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5B06830A2968AF8400889626 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				5B0682FB2967851100889626 /* ContentView.swift */,
 				5B0682FD2967851500889626 /* Assets.xcassets */,
 				5B0682FF2967851500889626 /* Preview Content */,
+				5B06830829685C7400889626 /* Model.swift */,
+				5B06830A2968AF8400889626 /* CustomButton.swift */,
 			);
 			path = RockPaperScissors;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B06830B2968AF8400889626 /* CustomButton.swift in Sources */,
+				5B06830929685C7400889626 /* Model.swift in Sources */,
 				5B0682FC2967851100889626 /* ContentView.swift in Sources */,
 				5B0682FA2967851100889626 /* RockPaperScissorsApp.swift in Sources */,
 			);
