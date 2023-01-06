@@ -13,6 +13,8 @@
 		5B0683012967851500889626 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B0683002967851500889626 /* Preview Assets.xcassets */; };
 		5B06830929685C7400889626 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B06830829685C7400889626 /* Model.swift */; };
 		5B06830B2968AF8400889626 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B06830A2968AF8400889626 /* CustomButton.swift */; };
+		5B06830D2968CC8F00889626 /* GamePlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B06830C2968CC8F00889626 /* GamePlayView.swift */; };
+		5B06830F2968D05500889626 /* TextViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B06830E2968D05500889626 /* TextViewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		5B0683002967851500889626 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5B06830829685C7400889626 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		5B06830A2968AF8400889626 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		5B06830C2968CC8F00889626 /* GamePlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayView.swift; sourceTree = "<group>"; };
+		5B06830E2968D05500889626 /* TextViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +59,13 @@
 		5B0682F82967851000889626 /* RockPaperScissors */ = {
 			isa = PBXGroup;
 			children = (
+				5B0683102968D4C100889626 /* ViewModifiers */,
 				5B0682F92967851100889626 /* RockPaperScissorsApp.swift */,
 				5B0682FB2967851100889626 /* ContentView.swift */,
 				5B0682FD2967851500889626 /* Assets.xcassets */,
 				5B0682FF2967851500889626 /* Preview Content */,
 				5B06830829685C7400889626 /* Model.swift */,
-				5B06830A2968AF8400889626 /* CustomButton.swift */,
+				5B06830C2968CC8F00889626 /* GamePlayView.swift */,
 			);
 			path = RockPaperScissors;
 			sourceTree = "<group>";
@@ -71,6 +76,15 @@
 				5B0683002967851500889626 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5B0683102968D4C100889626 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				5B06830E2968D05500889626 /* TextViewModifier.swift */,
+				5B06830A2968AF8400889626 /* CustomButton.swift */,
+			);
+			path = ViewModifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +160,8 @@
 				5B06830B2968AF8400889626 /* CustomButton.swift in Sources */,
 				5B06830929685C7400889626 /* Model.swift in Sources */,
 				5B0682FC2967851100889626 /* ContentView.swift in Sources */,
+				5B06830D2968CC8F00889626 /* GamePlayView.swift in Sources */,
+				5B06830F2968D05500889626 /* TextViewModifier.swift in Sources */,
 				5B0682FA2967851100889626 /* RockPaperScissorsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
